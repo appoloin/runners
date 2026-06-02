@@ -2,7 +2,7 @@
     "name": "xenia-linux",
     "human_name": "Xenia Linux",
     "description": "Linux build of Xenia the Xbox360 emulator",
-    "platforms": ["xbox360"],
+    "platforms": ["Xbox360"],
     "runner_executable": "xenia-linux/xenia_canary_linux.AppImage",
     "runnable_alone": true,
     "download_url": "https://github.com/xenia-canary/xenia-canary/releases/download/fbd620c/xenia_canary_linux.AppImage",
