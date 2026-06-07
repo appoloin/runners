@@ -1,0 +1,19 @@
+{
+    "name": "commodore64",
+    "human_name": "Commodore 64",
+    "description": "Commodore 64 emulator",
+    "platforms": ["C64"],
+    "runner_executable": "",
+    "flatpak_id": "x64sc net.sf.VICE",
+    "runnable_alone": true,
+    "entry_point_option": "rom",
+    "download_url": "",
+    "game_options": [
+       {
+            "option": "rom",
+            "type": "file",
+            "label": "ROM file",
+            "help": "Single archive or image file for tape, cartridge or single-diskette games, \n.m3u playlist for multi-diskette games"
+        }
+    ]
+}

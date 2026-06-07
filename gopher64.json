@@ -1,0 +1,19 @@
+{
+    "name": "gopher64",
+    "human_name": "Gopher64",
+    "description": "Nintendo 64  emulator",
+    "platforms": ["Nintendo 64"],
+    "runner_executable": "g",
+    "flatpak_id": "io.github.gopher64.gopher64",
+    "runnable_alone": true,
+    "entry_point_option": "rom",
+    "download_url": "",
+    "game_options": [
+       {
+            "option": "rom",
+            "type": "file",
+            "label": "ROM",
+            "help": "Game Rom file"
+        }
+    ]
+}

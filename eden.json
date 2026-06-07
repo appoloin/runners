@@ -1,0 +1,19 @@
+{
+    "name": "eden",
+    "human_name": "Eden",
+    "description": "Switch 1 emulator",
+    "platforms": ["Switch"],
+    "runner_executable": "eden/Eden-Linux-v0.2.0-amd64-clang-pgo.AppImage",
+    "flatpak_id": "",
+    "runnable_alone": true,
+    "entry_point_option": "rom",
+    "download_url": "https://stable.eden-emu.dev/v0.2.0/Eden-Linux-v0.2.0-amd64-clang-pgo.AppImage",
+    "game_options": [
+       {
+            "option": "rom",
+            "type": "file",
+            "label": "ROM file",
+            "help": ""
+        }
+    ]
+}

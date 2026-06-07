@@ -1,0 +1,19 @@
+{
+    "name": "fuse",
+    "human_name": "Fuse",
+    "description": "Sinclair ZX Spectrum emulator",
+    "platforms": ["ZX Spectrum"],
+    "runner_executable": "",
+    "flatpak_id": "net.sourceforge.fuse_emulator.Fuse",
+    "runnable_alone": true,
+    "entry_point_option": "rom",
+    "download_url": "",
+    "game_options": [
+       {
+            "option": "rom",
+            "type": "file",
+            "label": "ROM file",
+            "help": "Game ROM "
+        }
+    ]
+}

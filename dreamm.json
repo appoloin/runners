@@ -1,0 +1,18 @@
+{
+    "name": "dreamm",
+    "human_name": "Dreamm",
+    "description": "A ulti core emulator",
+    "platforms": ["Dreamm"],
+    "runner_executable": "dreamm/DREAMM-4.0-anylinux-x86_64.AppImage",
+    "flatpak_id": "",
+    "runnable_alone": true,
+    "download_url": "https://github.com/pkgforge-dev/DREAMM-AppImage/releases/download/4.0%402026-05-01_1777638161/DREAMM-4.0-anylinux-x86_64.AppImage",
+    "game_options": [
+        {
+            "option": "main_file",
+            "type": "file",
+            "label": "ISO",
+            "help": "PLACE HOLDERS"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "gargoyle",
+    "human_name": "Gargoyle",
+    "description": "Interactive Fiction emulator",
+    "platforms": ["Gargoyle"],
+    "runner_executable": "gargoyle/Gargoyle-x86_64.AppImage",
+    "flatpak_id": "io.github.garglk.Gargoyle",
+    "runnable_alone": false,
+    "entry_point_option": "story",
+    "download_url": "https://github.com/garglk/garglk/releases/download/2026.1.1/Gargoyle-x86_64.AppImage",
+    "game_options": [
+       {
+            "option": "story",
+            "type": "file",
+            "label": "Story file",
+            "help": "The Z-Machine game file."
+        }
+    ]
+}
