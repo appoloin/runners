@@ -1,0 +1,38 @@
+{
+    "name": "playstaton3",
+    "human_name": "Playstaton 3",
+    "description": "Playstation 3  emulator",
+    "platforms": ["PS3"],
+    "runner_executable": "",
+    "flatpak_id": "net.rpcs3.RPCS3",
+    "runnable_alone": true,
+    "entry_point_option": "title_id",
+    "download_url": "",
+    "game_options": [
+        {
+            "option": "title_id",
+            "type": "string",
+            "label": "Title ID of Installed Game",
+            "argument": "RPCS3_GAMEID:",
+            "help": "Title ID of installed game. Eg.\"PCSG00042\".",
+            "default": ""
+        }    
+    ],
+    "runner_options" : [
+        {
+            "option": "nogui", 
+            "type": "bool", 
+            "label": "No GUI", 
+            "argument": "--no-gui",
+            "default": true
+        }
+    ],
+    "system_options_override": [
+        {
+            "option": "disable_runtime",
+            "type": "bool",
+            "default": true
+        }
+    ]
+}
+
